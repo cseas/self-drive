@@ -3,10 +3,11 @@ This project plans a real-time trajectory of a self-driving car using onboard ca
 
 ## List of contents
 - [Install Requirements](#install-requirements)
-- [General Functions](#general-functions)
+- [General Functions (Carla)](#general-functions)
     - [Capture an Image](#capture-an-image)
     - [Car Acceleration](#car-acceleration)
     - [Release Control of Car](#release-control-of-car)
+- [Deep Reinforcement Learning in AirSim](#deep-reinforcement-learning-in-airsim)
 - [Software Information](#software-information)
 
 ## Install Requirements
@@ -40,6 +41,13 @@ Release all control from the car
 ```python
 selfdrive.release_control()
 ```
+
+## Deep Reinforcement Learning in AirSim
+I've implemented a Reinforcement Learning model for AirSim simulator by Microsoft. This model implements DQN in AirSim using CNTK.
+
+CNTK provides several demo examples of [deep RL](https://github.com/Microsoft/CNTK/tree/master/Examples/ReinforcementLearning). I've modified the `DeepQNeuralNetwork.py` to work with AirSim. We can utilize most of the classes and methods corresponding to the DQN algorithm. However, there are certain additions we need to make for AirSim.
+
+This example works with AirSimNeighborhood environment available in [releases](https://github.com/Microsoft/AirSim/releases).
 
 ## Software Information
 Tested on  
