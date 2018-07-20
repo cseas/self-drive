@@ -1,4 +1,4 @@
-# Self Driving Car Trajectory Planning
+# Self Driving Car Path Planning
 This project aims to create a deep learning model to plan a real-time trajectory of a self-driving car using onboard cameras. Tested on multiple open-source simulators for a higher accuracy and better results.
 
 ## List of contents
@@ -10,6 +10,7 @@ This project aims to create a deep learning model to plan a real-time trajectory
         - [Release Control of Car](#release-control-of-car)
     - [Carla Software Information](#carla-software-information)
 - [Udacity](#udacity)
+    - [Udacity Software Information](#Udacity-Software-Information)
 - [AirSim](#airsim)
     - [Deep Reinforcement Learning in AirSim](#deep-reinforcement-learning-in-airsim)
     - [AirSim Software Information](#airsim-software-information)
@@ -57,8 +58,16 @@ Python 3.5.2
 PyAutoGUI 0.9.36
 
 # Udacity
+[Source](https://github.com/udacity/self-driving-car-sim)
+
+## Udacity Software Information
+Tested on
+
+Ubuntu 16.04 LTS
+Udacity Term 3 Simulator v1.2
 
 # AirSim
+[Source]()
 
 ## Deep Reinforcement Learning in AirSim
 I've implemented a Reinforcement Learning model for AirSim simulator by Microsoft. This model implements DQN in AirSim using CNTK.
