@@ -1,1 +1,7 @@
 PyAutoGUI
+cntk
+msgpack-rpc-python
+airsim
+Pillow
+gym
+baselines
