@@ -1,13 +1,19 @@
 # Self Driving Car Trajectory Planning
-This project plans a real-time trajectory of a self-driving car using onboard cameras.
+This project aims to create a deep learning model to plan a real-time trajectory of a self-driving car using onboard cameras. Tested on multiple open-source simulators for a higher accuracy and better results.
 
 ## List of contents
-- [Install Requirements](#install-requirements)
-- [General Functions](#general-functions)
-    - [Capture an Image](#capture-an-image)
-    - [Car Acceleration](#car-acceleration)
-    - [Release Control of Car](#release-control-of-car)
-- [Software Information](#software-information)
+- [Carla](#carla)
+    - [Install Requirements](#install-requirements)
+    - [General Functions](#general-functions)
+        - [Capture an Image](#capture-an-image)
+        - [Car Acceleration](#car-acceleration)
+        - [Release Control of Car](#release-control-of-car)
+    - [Software Information](#software-information)
+- [Udacity](#udacity)
+- [AirSim](#airsim)
+
+# Carla
+[Source](https://github.com/carla-simulator/carla)
 
 ## Install Requirements
 ```shell
@@ -47,3 +53,7 @@ Tested on
 Ubuntu 16.04 LTS  
 Python 3.5.2  
 PyAutoGUI 0.9.36
+
+# Udacity
+
+# AirSim
